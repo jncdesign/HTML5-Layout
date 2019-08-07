@@ -2,15 +2,70 @@
 <html>
 
 <head>
-  <title>Text</title>
+  <title>HTML5 Layout</title>
   <link href="css/stylesheet.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-  <h1>Heading 1</h1>
-  <p>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-  </p>
+  <div class="wrapper">
+    <header>
+      <h1>Yoko's Kitchen</h1>
+      <nav>
+        <ul>
+          <li><a href="">home</a></li>
+          <li><a href="">classes</a></li>
+          <li><a href="">catering</a></li>
+          <li><a href="">about</a></li>
+          <li><a href="">contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <article class="courses">
+        <figure>
+          <img src="img/sample-image.png" alt="Sample Image">
+          <figcaption>Bok Choi</figcaption>
+        </figure>
+        <hgroup>
+          <h2>Japanese Vegetarian</h2>
+          <h3>Five Week Course in London</h3>
+        </hgroup>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </article>
+      <article>
+        <figure>
+          <img src="img/sample-image.png" alt="Sample Image">
+          <figcaption>Teriyaki Sauce</figcaption>
+        </figure>
+        <hgroup>
+          <h2>Sauces MAstercalss</h2>
+          <h3>One Day Workshop</h3>
+        </hgroup>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </article>
+    </section>
+    <aside>
+      <section class="popular-recipes">
+        <h2>Popular Recipes</h2>
+        <a href="">Yakitori (grilled chicken)</a>
+        <a href="">Tsukune (minced chicken patties)</a>
+        <a href="">Okonomiyaki (savory pancake)</a>
+        <a href="">Mizutaki (chicken stew)</a>
+      </section>
+      <section class="contact-details">
+        <h2>Contact</h2>
+        <p>
+          Yoko's Kitchen <br>
+          27 Redchurch Street <br>
+          Shoreditch <br>
+          London E2 7DP
+        </p>
+      </section>
+    </aside>
+    <footer>
+      &copy: 20196 Yoko's Kitchen
+    </footer>
+  </div> <!-- .wrapper -->
 </body>
 
 </html>
